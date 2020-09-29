@@ -9,7 +9,7 @@ import { ProductService } from '../product.service';
 })
 export class ProductDescriptionComponent implements OnInit {
 
-   albumInfo: () => any;
+   albumInfo;
 
   constructor( private _productService: ProductService ) {
 
